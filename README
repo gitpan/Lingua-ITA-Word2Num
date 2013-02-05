@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution Lingua-ITA-Word2Num,
-version 0.044:
+version 0.0577:
 
-  Lingua::ITA::Word2Num is module for converting text containing number representation in italian back into number. Converts whole numbers from 0 up to 999 999 999 999.
+  Word 2 number conversion in ITA.
 
 source: http://opensource.org
 
