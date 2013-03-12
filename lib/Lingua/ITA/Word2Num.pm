@@ -5,17 +5,20 @@ package Lingua::ITA::Word2Num;
 
 # {{{ use block
 
+use 5.10.1;
+
 use strict;
 use warnings;
 
 use Perl6::Export::Attrs;
 use Parse::RecDescent;
+
 # }}}
 # {{{ variable declarations
 
-our $VERSION = 0.0577;
+our $VERSION = 0.0682;
 our $INFO    = {
-    rev  => '$Rev: 577 $',
+    rev  => '$Rev: 682 $',
 };
 
 our @EXPORT_OK  = qw(cardinal2num w2n);
@@ -149,12 +152,12 @@ Lingua::ITA::Word2Num
 
 =head1 VERSION
 
-version 0.0577
+version 0.0682
 
 text to positive number convertor for Italian.
 Input text must be encoded in utf-8.
 
-=head2 $Rev: 577 $
+=head2 $Rev: 682 $
 
 ISO 639-3 namespace.
 
